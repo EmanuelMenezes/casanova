@@ -17,7 +17,7 @@
   
     $item->getCorretorbyId();
 
-    if($item->name != null){
+    if($item->nome != null){
         // create array
         $corretor_arr = array(
             "id" => $id, 
@@ -32,6 +32,6 @@
       
     else{
         http_response_code(404);
-        echo json_encode("Imóvel não encontrado.");
+        echo json_encode("Registro não encontrado.");
     }
 ?>

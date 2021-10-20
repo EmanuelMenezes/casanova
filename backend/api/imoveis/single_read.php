@@ -17,7 +17,7 @@
   
     $item->getImovelbyId();
 
-    if($item->name != null){
+    if($item->cep != null){
         // create array
         $imovel_arr = array(
             "id" => $id, 
